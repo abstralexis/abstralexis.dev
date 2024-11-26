@@ -10,3 +10,9 @@ html {
     font-size: xx-large;
     align-items: center;
 }
+
+@layer components {
+    body {
+        @apply bg-base;
+    }
+}
