@@ -10,11 +10,13 @@
     let { title, description, endpoint, assetPath, alt }: Props = $props();
 </script>
 
-<div>
-    <a href={endpoint}><img src={assetPath} {alt} class="rounded-t-3xl"></a>
-    <h2>{title}</h2>
-    <p>{description}</p>
-</div>
+<a href={endpoint}>
+    <div>
+        <img src={assetPath} {alt} class="rounded-t-3xl">
+        <h2>{title}</h2>
+        <p>{description}</p>
+    </div>
+</a>
 
 <style lang="postcss">
     @tailwind components;
