@@ -1,3 +1,7 @@
+<script>
+    import PagePreviewButton from "../components/PagePreviewButton.svelte";
+</script>
+
 <svelte:head>
     <title>Alexis' Dev Website</title>
     <meta charset="UTF-8">
@@ -25,4 +29,14 @@
 (__...'   __\    |`.___.';                                               
   (_,...'(_,.`__)/'.....+ -----------------------------------------------
     </pre>
+</div>
+
+<div class="center-div">
+    <PagePreviewButton 
+        title="Kitty" 
+        description="woag..." 
+        endpoint="/kitty" 
+        assetPath="/coal.png"
+        alt="A cute black cat in an upright pose."    
+    />
 </div>
