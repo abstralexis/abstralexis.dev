@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-    font-family:"Jetbrains Mono";
+    font-family:"JetBrains Mono";
 }
 
 .landing-page-title {

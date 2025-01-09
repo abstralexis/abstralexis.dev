@@ -8,7 +8,7 @@
 
 <!-- Should I make this be a component? -->
 <footer>
-    <div class="text-center text-text rounded-b-3xl">
+    <div class="text-center text-text rounded-b-3xl mocha">
         <small class="text-red">&copy; Alexis Williams 2025</small>
     </div>
 </footer>
