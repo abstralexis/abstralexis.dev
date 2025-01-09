@@ -9,8 +9,8 @@
     <meta name="author" content="Alexis Williams (abstralexis)"/>
 </svelte:head>
  
-<div class="space-y-2 text-center">
-    <h1 class="bg-base text-lavender landing-page-title">
+<div class="space-y-2 text-center bg-mantle">
+    <h1 class="text-lavender landing-page-title">
         Welcome!
     </h1>
     <h2 class="text-text">
@@ -18,25 +18,37 @@
         from the UK. 
     </h2>
     <p class="text-subtext0"><i>she/her</i></p>
-</div>
 
-<div class="text-center text-text">
-    <pre class="text-rosewater">
+
+    <div class="text-center text-text">
+        <pre class="text-rosewater">
    |\---/|---------------------------------------------------------------
    | ,_, |                                                               
     \_`_/-..----.                       Under Construction!              
  ___/ `   ' ,""+ \           <i>kitty from the ascii art archive</i>     
 (__...'   __\    |`.___.';                                               
   (_,...'(_,.`__)/'.....+ -----------------------------------------------
-    </pre>
+        </pre>
+    </div>
+
 </div>
 
-<div class="center-div">
+<br>
+
+<div class="px-4 grid grid-cols-4 gap-3">
     <PagePreviewButton 
         title="Kitty" 
         description="woag..." 
         endpoint="/kitty" 
         assetPath="/coal.png"
         alt="A cute black cat in an upright pose."    
+    />
+
+    <PagePreviewButton
+        title="My Blog"
+        description="This is where I will post little things when I feel like it!"
+        endpoint="/blog"
+        assetPath="/cat-tongue.png"
+        alt=""
     />
 </div>

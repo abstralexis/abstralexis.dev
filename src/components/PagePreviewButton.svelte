@@ -11,8 +11,8 @@
 </script>
 
 <a href={endpoint}>
-    <div>
-        <img src={assetPath} {alt} class="rounded-t-3xl">
+    <div class="flow-text break-words">
+        <img src={assetPath} {alt} class="rounded-t-3xl" width="300">
         <h2>{title}</h2>
         <p>{description}</p>
     </div>
@@ -27,11 +27,12 @@
         }
 
         p {
-            @apply text-text;
+            @apply text-text text-wrap;
         }
 
         div {
             @apply rounded-3xl bg-mantle pb-2 border-4 border-transparent;
+            width: 500;
         }
 
         div:hover {

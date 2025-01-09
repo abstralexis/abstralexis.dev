@@ -11,6 +11,10 @@ html {
     align-items: center;
 }
 
+hr {
+    background-color: #f5e0dc;
+}
+
 @layer components {
     body {
         @apply bg-base flex flex-col h-screen;
