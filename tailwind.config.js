@@ -5,7 +5,7 @@ export default {
     extend: {},
   },
   plugins: [
-    import("@catppuccin/tailwindcss")({
+    require("@catppuccin/tailwindcss")({
       defaultFlavour: "mocha",
     }),
   ],
