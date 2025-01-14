@@ -17,7 +17,7 @@
         <h2 class="text-text">
             Why did I switch from Windows to NixOS, and how did it go?
         </h2>
-        <p class="text-subtext0">2024-01-09</p>
+        <p class="text-subtext0">2025-01-09</p>
 
         <div class="center-div">
             <img 
