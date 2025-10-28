@@ -9,17 +9,17 @@
     <meta name="author" content="Alexis Williams (abstralexis)"/>
 </svelte:head>
  
-<div class="space-y-2 text-center bg-mantle">
+<div class="space-y-2 text-center">
     <h1 class="text-lavender landing-page-title">
         Welcome!
     </h1>
     <h2 class="text-text">
-        My name is Alexis Williams, I'm an 18 year old Developer
+        My name is Alexis Williams, I'm a 19 year old Software Engineer
         from the UK. 
     </h2>
     <p class="text-subtext0"><i>she/her</i></p>
-
-
+    
+    
     <div class="text-center text-text">
         <pre class="text-rosewater">
    |\---/|---------------------------------------------------------------
@@ -42,13 +42,41 @@
         endpoint="/kitty" 
         assetPath="/coal.png"
         alt="A cute black cat in an upright pose."    
+        bg=""
     />
 
     <PagePreviewButton
         title="My Blog"
         description="This is where I will post little things when I feel like it!"
         endpoint="/blog"
-        assetPath="/cat-tongue.png"
+        assetPath="/ctp-nix.png"
         alt=""
+        bg=""
+    />
+</div>
+
+<div class="space-y-2 text-center">
+    <h1 class="text-lavender heading">
+        Projects
+    </h1>
+</div>
+
+<div class="px-4 grid grid-cols-4 gap-3 py-4">
+    <PagePreviewButton 
+        title="Torc" 
+        description="Work-in-progress amnesic IRC platform over the Tor Network." 
+        endpoint="/torc" 
+        assetPath="/torctemp.png"
+        alt="A cute black cat in an upright pose."   
+        bg="bg-lavender" 
+    />
+
+    <PagePreviewButton
+        title="My Blog"
+        description="This is where I will post little things when I feel like it!"
+        endpoint="/blog"
+        assetPath="/ctp-nix.png"
+        alt=""
+        bg=""
     />
 </div>

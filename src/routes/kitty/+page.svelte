@@ -1,6 +1,6 @@
 <div class="space-y-2 text-center">
     <h1 class="bg-base text-lavender landing-page-title">
-        Kitty Appreciation
+        Kitty Appreciation (Test Page)
     </h1>
     <h2 class="text-text">
         This is a cat image from Reddit that I found and have

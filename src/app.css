@@ -11,6 +11,11 @@ html {
     align-items: center;
 }
 
+.heading {
+    font-size: x-large;
+    align-items: center;
+}
+
 hr {
     background-color: #f5e0dc;
 }
